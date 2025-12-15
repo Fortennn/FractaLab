@@ -11,7 +11,16 @@
 
 ## Скріншоти
 
-<p align="center"> <img src="resources/img/screenshot-main.png" alt="Головне вікно" width="45%"> <img src="resources/img/screenshot-zoom.png" alt="Діалог зуму" width="45%" height="60%"> </p> <p align="center"> <em>Зліва: головне вікно з візуалізацією множини Мандельброта.<br> Справа: діалогове вікно налаштування зум-анімації.</em> </p>
+<p align="center">
+  <img src="resources/img/screenshot-main.png" alt="Головне вікно" width="42%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="resources/img/screenshot-zoom.png" alt="Діалог зуму" width="42%">
+</p>
+
+<p align="center">
+  <em>Зліва: головне вікно з візуалізацією множини Мандельброта.<br>
+  Справа: діалогове вікно налаштування зум-анімації.</em>
+</p>
 
 ## Встановлення
 ```
@@ -50,4 +59,4 @@ python main.py
 <h2 align="center">Множини Жюліа</h2>
 <p align="center"> <img src="resources/img/julia1.png" alt="Жюліа c = –0.8 + 0.156i" width="45%"> <img src="resources/img/julia2.png" alt="Жюліа c = 0.285 + 0.01i" width="45%"> </p> <p align="center"><em>Фрактали Жюліа для різних значень параметра <code>c</code>.</em></p>
 <h2 align="center">L-система</h2>
-<p align="center"> <img src="resources/img/tree.png" alt="L-system дерево" width="35%"> </p> <p align="center"><em>Анімація побудови фрактального дерева за допомогою L-системи.</em></p>
+<p align="center"> <img src="resources/gif/tree.gif" alt="L-system дерево" width="35%"> </p> <p align="center"><em>Анімація побудови фрактального дерева за допомогою L-системи.</em></p>
