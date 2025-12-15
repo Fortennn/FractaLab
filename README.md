@@ -9,8 +9,7 @@
 - Експорт: PNG/JPEG для всіх фракталів; GIF-анімація для L-system; MP4-відео плавного зуму для Мандельброта/Жюліа.
 - Додатково: скидання палітри до Ocean, попередження при великих ітераціях, плавна поява вікна.
 
-## Скриншоти
-Додайте власні зображення до `resources/img/` і оновіть назви файлів у прикладах нижче.
+## Скріншоти
 
 ![Головне вікно](resources/img/screenshot-main.png)
 ![Діалог зуму](resources/img/screenshot-zoom.png)
@@ -46,10 +45,10 @@ python main.py
 - `ui/` — файли інтерфейсу з Qt Designer.
 - `resources/` — іконки, gif-заглушки, стилі QSS; `resources_rc.py` — скомпільований ресурсний модуль.
 
-## Оновлення UI та збірка
-- Відкрийте `ui/main.ui` і `ui/zoom.ui` у Qt Designer для правок.
-- Інтерфейс підвантажується через `loadUi`, тож після змін достатньо перезапустити застосунок.
-- Для збірки standalone під Windows можна використати PyInstaller (приклад):
-```
-pyinstaller --noconsole --onefile --add-data "ui;ui" --add-data "resources;resources" main.py
-```
+## Приклади згенерованих фракталів в застосунку
+
+![Множина Мандельброта (базовий вигляд)](resources/img/def.png)
+![«Долина слонів» у множині Мандельброта](resources/img/Elephan.png)
+![Множина Жюліа для параметра c = –0.8 + 0.156i](resources/img/julia1.png)
+![Множина Жюліа для параметра c = 0.285 + 0.01i](resources/img/julia2.png)
+![Фрактал L-system(дерево)](resources/img/tree.gif)
