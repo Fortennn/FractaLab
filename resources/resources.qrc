@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="img/">
+    <file>img/arrow-down.png</file>
+  </qresource>
+  <qresource prefix="img/">
+    <file>img/save.png</file>
+  </qresource>
+  <qresource prefix="img/">
+    <file>img/icon.png</file>
+  </qresource>
+</RCC>
