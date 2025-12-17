@@ -1,4 +1,6 @@
-﻿# FractaLab
+https://drive.google.com/file/d/1SHdWRSEp9DveD0005iV4V3yvwcgOloPG/view?usp=drivesdk
+ 
+ # FractaLab
 
 Десктоп-застосунок для генерації та візуалізації фракталів. Інтерфейс зібраний у Qt Designer (`ui/main.ui`, `ui/zoom.ui`) і підвантажується через `loadUi`.
 
